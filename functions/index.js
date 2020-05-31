@@ -39,7 +39,7 @@ app.post("/", (req, res) => {
         from: "mail.del.emisor@ejemplo.com",
         to: body.to,
         subject: body.subject,
-        text: body.message
+        html: body.message
     };
 
     //Desactivo las seguriades de la cuenta interna a las variables de entorno
